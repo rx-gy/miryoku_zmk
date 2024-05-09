@@ -72,6 +72,12 @@ U_MT(LGUI, Q),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp 
 U_LT(U_BUTTON, W), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp COMMA,         &kp DOT,           U_MT(RALT, SLASH), U_LT(U_BUTTON, SQT),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
+#define MIRYOKU_ALTERNATIVES_BASE_RECURVA \
+&kp F,             &kp R,             &kp D,             &kp P,             &kp V,             &kp Q,             &kp J,             &kp U,             &kp O,             &kp Y,             \
+U_MT(LGUI, S),     U_MT(LALT, N),     U_MT(LCTRL, T),    U_MT(LSHFT, C),    &kp B,             &kp DOT,           U_MT(LSHFT, H),    U_MT(LCTRL, E),    U_MT(LALT, A),     U_MT(LGUI, I),     \
+U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp K,             &kp G,             &kp W,             &kp M,             &kp L,             &kp SEMI,          U_MT(RALT, SQT),   U_LT(U_BUTTON, COMMA),\
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
+
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15 \
 &kp Q,             &kp H,             &kp O,             &kp U,             &kp X,             &kp G,             &kp C,             &kp R,             &kp F,             &kp Z,             \
 U_MT(LGUI, Y),     U_MT(LALT, I),     U_MT(LCTRL, E),    U_MT(LSHFT, A),    &kp DOT,           &kp D,             U_MT(LSHFT, S),    U_MT(LCTRL, T),    U_MT(LALT, N),     U_MT(LGUI, B),     \
@@ -191,6 +197,12 @@ U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp 
 &kp A,             &kp Z,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp Q,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp M,             \
 &kp W,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp COMMA,         &kp DOT,           &kp SLASH,         &kp SQT,           \
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+
+#define MIRYOKU_ALTERNATIVES_TAP_RECURVA \
+&kp F,             &kp R,             &kp D,             &kp P,             &kp V,             &kp Q,             &kp J,             &kp U,             &kp O,             &kp Y,             \
+&kp S,             &kp N,             &kp T,             &kp C,             &kp B,             &kp DOT,           &kp H,             &kp E,             &kp A,             &kp I,             \
+&kp Z,             &kp X,             &kp K,             &kp G,             &kp W,             &kp M,             &kp L,             &kp SEMI,          &kp SQT,           &kp COMMA,         \
 U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15 \
